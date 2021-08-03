@@ -45,7 +45,7 @@
 
 '/shower and /snowy
 
-'Full commands in commandList.pdf (download it)
+'View Full Cmds in commmandList.pdf
 
 # 𝐼𝓃𝓉𝓇𝑜𝒹𝓊𝒸𝒾𝓃𝑔 𝐹𝒶𝓈𝓉𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
