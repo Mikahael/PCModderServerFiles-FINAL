@@ -1,58 +1,63 @@
-# 𝐵𝑜𝓂𝒷𝓈𝓆𝓊𝒶𝒹𝟣.𝟦||𝐹𝓊𝓁𝓁𝒮𝑒𝓇𝓋𝑒𝓇𝐹𝒾𝓁𝑒𝓈[𝒫𝒞𝑀𝑜𝒹𝒹𝑒𝓇]
-*Server files for 1.6.
+# 𝐵𝑜𝓂𝒷𝓈𝓆𝓊𝒶𝒹𝟣.6||𝒮𝑒𝓇𝓋𝑒𝓇𝐹𝒾𝓁𝑒𝓈𝒫𝒞𝑀𝑜𝒹𝒹𝑒𝓇
+*Server files for 1.4.
 
-*These are Server files made specifically for bombsquad versions 1.6
+*These are server files made for 1.4 servers
 
-*25 New Powerups and more
+*A total of 73 powerups both old and new
 
-*It works with server version 1.6.0
+*It works best on server version 1.4.155
 
 *Also works with the app.
 
+*Contains best admin system with server configurations
+
 *Extract the zip file and instructions on how to install are below
 
-*Make your text_on_map edits in _maps.py (Much better and improved)
+# 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
 
+*Stongest Admin system to be ever created
+
+*A total of 73 powerups with dual configuration
+
+*Special roles for friends or top players
+
+*Top Notch server commmands for configuration in real time
+
+*Live New Bombsquad Textures configured in real time
+
+*Full working server files created by Avarohana or PCModder
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
 
-+Open ba_data folder
++Open data folder
 
-+Open python folder
++Delete the current scripts folder in the data folder
 
-+Delete the current ba and bastd folders only in the python folder
++Copy my scripts folder and paste it into your data folder,
 
-+Copy my bastd and ba folders and paste it into your python folder,
-
-+The python folder is located in ba_data folder.
++The scripts folder is located in data folder.
 
 +It may say replace files or folder, if so, press replace all
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒮𝑒𝓇𝓋𝑒𝓇
 
-+Open dist folder
++Open data folder
 
-+Open ba_data
++Delete the current scripts folder in the data folder
 
-+Open python folder
-
-+Delete the current ba and bastd folders only in the python folder
-
-+Paste my bastd and ba folders into the python folder
++Copy my scripts folder and paste it into your data folder,
 
 +It may say replace files or folder, if so, press replace all
 
 # 𝒯𝒽𝒶𝓃𝓀𝓈
 
-//Thanks to PCModder/PC231392/PC290717 (All are Me)
+//Thanks to PCModder/PC231392/PC290717/Avarohana/Arohana(All are Me)
+
+//Thanks to Blitz
 
 //Thanks to SobyDamn
 
-//Thanks to Pranav
-
 //Thanks to Bombdash
-
-//Thanks to Arter Tendean / Animemoeus
 
 //Thanks to Esie-Eyen
 
