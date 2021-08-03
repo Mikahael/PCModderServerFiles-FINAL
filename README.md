@@ -47,6 +47,24 @@
 
 'Full commands in cmdList
 
+# 𝐼𝓃𝓉𝓇𝑜𝒹𝓊𝒸𝒾𝓃𝑔 𝐹𝒶𝓈𝓉𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
+
+'A mod created to ease typing commands and related to advancedPartyWindow
+
+'Fast Commands mod works on 1.6+ Bombsquad Version APP
+
+'To add the mod, open ba_data folder
+
+'Then open python folder, then open bastd folder
+
+'In bastd folder, open Ui folder, in it look for party.py
+
+'Replace party.py with my party.py located above
+
+'Delete _pycache_ folder while exiting and start Bombsquad
+
+'Open PartyWindow and click ? Button, and Voila
+
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
 
 +Open data folder
