@@ -31,7 +31,7 @@
 
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
-'A few special server commands -
+'A few special server commands + more in commandsList.txt -
 
 '/teamMode on
 
