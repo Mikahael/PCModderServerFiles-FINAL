@@ -1,7 +1,7 @@
 # 𝐵𝑜𝓂𝒷𝓈𝓆𝓊𝒶𝒹1.4||𝐹𝓊𝓁𝓁𝒮𝑒𝓇𝓋𝑒𝓇𝐹𝒾𝓁𝑒𝓈[𝒫𝒞𝑀𝑜𝒹𝒹𝑒𝓇]
 *Server files for 1.4.
 
-*These are server files made for 1.4 servers
+*Created and added by Avarohana or PCModder
 
 *A total of 73 powerups both old and new
 
