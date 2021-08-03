@@ -31,7 +31,7 @@
 
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
-'A few special server commands + more in commandsList.txt -
+'A few special server commands + more -
 
 '/teamMode on
 
@@ -44,6 +44,8 @@
 '/maps
 
 '/shower and /snowy
+
+'Full commands in cmdList
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
 
