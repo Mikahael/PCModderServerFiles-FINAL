@@ -25,6 +25,8 @@
 
 *Live New Bombsquad Textures configured in real time
 
+*Awesome New mods such as PCFloater
+
 *Full working server files created by Avarohana or PCModder
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
