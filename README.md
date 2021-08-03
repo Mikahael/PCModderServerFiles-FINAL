@@ -7,6 +7,8 @@
 
 *It works best on server version 1.4.155
 
+*Players can use any Characters even if they dont have
+
 *Also works with the app.
 
 *Contains best admin system with server configurations
