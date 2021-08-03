@@ -29,6 +29,22 @@
 
 *Full working server files created by Avarohana or PCModder
 
+# 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
+
+'A few special server commands -
+
+'/teamMode on
+
+'/ffaMode on
+
+'/floaterTrue
+
+'/floaterFalse
+
+'/maps
+
+'/shower and /snowy
+
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
 
 +Open data folder
