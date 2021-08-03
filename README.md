@@ -7,8 +7,6 @@
 
 *It works best on server version 1.4.155
 
-*Players can use any Characters even if they dont have
-
 *Also works with the app.
 
 *Contains best admin system with server configurations
@@ -26,6 +24,8 @@
 *Top Notch server commmands for configuration in real time
 
 *Live New Bombsquad Textures configured in real time
+
+*Players can use any Characters even if they dont have
 
 *Awesome New mods such as PCFloater
 
