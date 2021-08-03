@@ -31,7 +31,7 @@
 
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
-'A few special server commands + more -
+'A few special server commands -
 
 '/teamMode on
 
@@ -45,7 +45,7 @@
 
 '/shower and /snowy
 
-'Full commands in commandList.pdf(download it)
+'Full commands in commandList.pdf (download it)
 
 # 𝐼𝓃𝓉𝓇𝑜𝒹𝓊𝒸𝒾𝓃𝑔 𝐹𝒶𝓈𝓉𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
