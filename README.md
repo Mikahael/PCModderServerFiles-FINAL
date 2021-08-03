@@ -53,13 +53,13 @@
 
 'Fast Commands mod works on 1.6+ Bombsquad Version APP
 
-'To add the mod, open ba_data folder
+'To add the mod, open _ba_data_ folder
 
-'Then open python folder, then open bastd folder
+'Then open _python_ folder, then open _bastd_ folder
 
-'In bastd folder, open Ui folder, in it look for party.py
+'In bastd folder, open _Ui_ folder, in it look for _party.py_
 
-'Replace party.py with my party.py located above
+'Replace _party.py_ with my _party.py_ located above
 
 'Delete _pycache_ folder while exiting and start Bombsquad
 
@@ -67,23 +67,23 @@
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
 
-+Open data folder
++Open _data_ folder
 
-+Delete the current scripts folder in the data folder
++Delete the current _scripts_ folder in the _data_ folder
 
-+Copy my scripts folder and paste it into your data folder,
++Copy my _scripts_ folder and paste it into your _data_ folder,
 
-+The scripts folder is located in data folder.
++The _scripts_ folder is located in _data_ folder.
 
 +It may say replace files or folder, if so, press replace all
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒮𝑒𝓇𝓋𝑒𝓇
 
-+Open data folder
++Open _data_ folder
 
-+Delete the current scripts folder in the data folder
++Delete the current _scripts_ folder in the _data_ folder
 
-+Copy my scripts folder and paste it into your data folder,
++Copy my _scripts_ folder and paste it into your _data_ folder,
 
 +It may say replace files or folder, if so, press replace all
 
