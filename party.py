@@ -11,7 +11,7 @@ from typing import TYPE_CHECKING, cast
 
 import _ba
 import ba
-from bastd.ui import popup
+from bastd.ui import popup#My last Stand for BS
 
 if TYPE_CHECKING:
     from typing import List, Sequence, Optional, Dict, Any
