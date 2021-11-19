@@ -110,4 +110,4 @@
 Thank You for all Using, kindly to give me some credit to those who use,
 Avarohana/PCModder
 
-#All rights to PCModder/Avarohana as the License states above.
+#To whom ever this may concern, All rights to Mikahael aka PCModder/Avarohana as the License states above.
