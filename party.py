@@ -1,6 +1,6 @@
 # Released under the MIT License. See LICENSE for details.
 #PCModder was here
-#
+#All rights to PCModder/Mikahael as the Liecense states.
 """Provides party related UI."""
 
 from __future__ import annotations
