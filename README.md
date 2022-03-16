@@ -1,5 +1,21 @@
-# 𝐵𝑜𝓂𝒷𝓈𝓆𝓊𝒶𝒹1.4||𝐹𝓊𝓁𝓁𝒮𝑒𝓇𝓋𝑒𝓇𝐹𝒾𝓁𝑒𝓈[𝒫𝒞𝑀𝑜𝒹𝒹𝑒𝓇] (UPDATED)
-*Files have been updated to fix bugs.
+# 𝐵𝑜𝓂𝒷𝓈𝓆𝓊𝒶𝒹1.4||𝐹𝓊𝓁𝓁𝒮𝑒𝓇𝓋𝑒𝓇𝐹𝒾𝓁𝑒𝓈[𝒫𝒞𝑀𝑜𝒹𝒹𝑒𝓇] (UPDATED - 3.0)
+*Files have been updated to fix bugs and glitches.
+
+*All new verification system by PCModder
+
+*Cheat Commands are now Invisible to everyone but client
+
+*Added Question system and server sends message to Client only.
+
+*Removed floater, but still exists in bsTextOnMap.py if you wish to enable!
+
+*Added new chat command logger.
+
+*Use comp to complain server(Msg goes to owner in complaints.txt of root folder)
+
+*Use verify to verify yourself if verification is On.
+
+*Improved mute commands. Use /muteOn and /muteOff to mute all but owner.
 
 *Server files for 1.4.
 
@@ -36,6 +52,14 @@
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
 'A few special server commands -
+
+'/verificationTrue
+
+'/verificationFalse
+
+'/muteOn
+
+'/muteOff
 
 '/teamMode on
 
