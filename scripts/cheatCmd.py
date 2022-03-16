@@ -1,5 +1,6 @@
 ﻿# -*- coding: utf-8 -*-
 #https://github.com/imayushsaini/Bombsquad-modded-server-Mr.Smoothy
+#alot of the work has been done by PCModder
 import bs
 import bsInternal
 import bsPowerup
