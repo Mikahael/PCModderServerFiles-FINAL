@@ -1,31 +1,13 @@
 # 𝐵𝑜𝓂𝒷𝓈𝓆𝓊𝒶𝒹1.4||𝐹𝓊𝓁𝓁𝒮𝑒𝓇𝓋𝑒𝓇𝐹𝒾𝓁𝑒𝓈[𝒫𝒞𝑀𝑜𝒹𝒹𝑒𝓇] (UPDATED - 4.0)-FINAL
-*Files have been updated to fix bugs and glitches.
+*Server Files now are combined with ANKIT server files!
 
-*All new verification system by PCModder
+*Enjoy the full beauty of Ankit System and PCModder System
 
-*Cheat Commands are now Invisible to everyone but client
+*Contains 2 admin systems in 1 big package.
 
 *Added Question system and server sends message to Client only.
 
-*Removed floater, but still exists in bsTextOnMap.py if you wish to enable!
-
-*Added new chat command logger.
-
-*Use comp to complain server(Msg goes to owner in complaints.txt of root folder)
-
-*Use verify to verify yourself if verification is On.
-
-*Improved mute commands. Use /muteOn and /muteOff to mute all but owner.
-
-*Server files for 1.4.
-
-*Created and added by Avarohana or PCModder
-
-*A total of 73 powerups both old and new
-
-*It works best on server version 1.4.155
-
-*Also works with the app.
+*Added Ankit shop and chat commands.
 
 *Contains best admin system with server configurations
 
@@ -33,9 +15,9 @@
 
 # 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
 
-*Stongest Admin system to be ever created
+*Stongest Admin system to be ever created ~
 
-*A total of 73 powerups with dual configuration
+*A total of 73 powerups with triple configuration
 
 *Special roles for friends or top players
 
@@ -47,31 +29,31 @@
 
 *Awesome New mods such as PCFloater
 
+*Live time working whitelist and ban list
+
 *Full working server files created by Avarohana or PCModder
 
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
 'A few special server commands -
 
-'/verificationTrue
+'For PC commands use '?
 
-'/verificationFalse
+'For Ankit commands use '/'
 
-'/muteOn
+'?verification
 
-'/muteOff
+'?mute
 
-'/teamMode on
+'?teamMode on
 
-'/ffaMode on
+'?ffaMode on
 
-'/floaterTrue
+'?floater
 
-'/floaterFalse
+'?maps
 
-'/maps
-
-'/shower and /snowy
+'?shower and ?snowy
 
 'View Full Cmds in commmandList.pdf
 
@@ -79,7 +61,7 @@
 
 'A mod created to ease typing commands and related to advancedPartyWindow
 
-'Fast Commands mod works on 1.6+ Bombsquad Version APP
+'Fast Commands mod works on 1.7+ Bombsquad Version APP
 
 'To add the mod, open _ba_data_ folder
 
@@ -122,6 +104,8 @@
 //Thanks to Blitz
 
 //Thanks to SobyDamn
+
+//Thanks to Vivek
 
 //Thanks to Bombdash
 
