@@ -1,5 +1,5 @@
 #never change the order of this list, if you want to add more settings go all the way down and add||NEVER
-whitelist = True
+whitelist = False
 #DO NOT CHANGE ORDER OF SETTINGS DO NOT ADD OR DELETE POWERUPS MAJOR ERRROR---> ADMIN SYS USELESS AND DOWN UNLESS YOU FIX WHICH IS HARD
 powerupName = True
 
