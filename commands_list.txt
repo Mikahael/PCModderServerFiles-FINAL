@@ -60,6 +60,14 @@ For Ankit System use '/'
 
 +?floater - enables floater to be turned on Example - ?floater, To disable, type ?floater or same command again, During daytime, floater is regular/landmine floater, During night time, floater is PC floater
 
+*?? - Use for special OWNER text, example - ?? HELLO_GUYS
+
+Dont use spaces - example - Hey_how_are_you or hey,how,are,you
+
+*? - use for special ADMIN text, example - ? HEY_GUYS
+
+Dont use spaces - example - Hey_how_are_you or hey,how,are,you
+
 Roles
 
 Roles include - 
