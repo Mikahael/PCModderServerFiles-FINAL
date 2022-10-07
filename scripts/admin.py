@@ -17,6 +17,7 @@ from bsSpaz import _BombDiedMessage,_CurseExplodeMessage,_PickupMessage,_PunchHi
 import settings
 import membersID as MID
 import fire
+import filter
 
 
 class PermissionForEffect(object):
@@ -484,9 +485,11 @@ class Enhancement(bs.Actor):
 	#print cl_str, clID
         cName = player.getName()
         bright = ((0+random.random()*1.0),(0+random.random()*1.0),(0+random.random()*1.0))
-
-        ban = 'cum','cumshot','boob','boobies','tit','titz','fuck','fucker','shit','shithead','pussy','PuSSy','fucked','bitch','bitches','bietch','sex','Sex','bastard','Fuck','Fucker','Cum','Bitch'
-        
+	
+	
+	import filter
+        ban = filter.name_filter
+	
         for word in ban:
             if word in cName.lower(): 
                 try:
