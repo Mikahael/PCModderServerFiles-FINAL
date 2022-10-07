@@ -118,7 +118,7 @@
 Thank You for all Using, kindly to give me some credit to those who use,
 Avarohana/PCModder
 
-#𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝓌𝒽𝒾𝓉𝑒𝓁𝒾𝓈𝓉
+# 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝓌𝒽𝒾𝓉𝑒𝓁𝒾𝓈𝓉
 
 *To enable or disable whitelist, use ?whitelist
 
