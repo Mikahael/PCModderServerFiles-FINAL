@@ -31,18 +31,6 @@
 
 *Live time working whitelist and ban list
 
-# Chat Filters and Name Filters
-
-*Server filters both chat messages and Names!
-
-*To add a word to chat fiter, open fiter.py and add the word
- in the f_word hashes.
- 
-*To add a word to the Name filter, open filter.py and add the
- name in the name_filter hashes.
- 
-*Anyone with blacklisted name gets kicked immedietly
-
 *Full working server files created by Avarohana or PCModder
 
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
@@ -140,5 +128,17 @@ Avarohana/PCModder
  remove the id under whitelist hashes.
 
 *Whitelist permanent until turned off
+
+# 𝒞𝒽𝒶𝓉 𝐹𝒾𝓁𝓉𝑒𝓇𝓈 𝒶𝓃𝒹 𝒩𝒶𝓂𝑒 𝐹𝒾𝓁𝓉𝑒𝓇𝓈
+
+*Server filters both chat messages and Names!
+
+*To add a word to chat fiter, open fiter.py and add the word
+ in the f_word hashes.
+ 
+*To add a word to the Name filter, open filter.py and add the
+ name in the name_filter hashes.
+ 
+*Anyone with blacklisted name gets kicked immedietly
 
 #To whom ever this may concern, All rights to Mikahael aka PCModder/Avarohana as the License states above.
