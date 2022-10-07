@@ -160,3 +160,127 @@ Avarohana/PCModder
 *To BAN, use /ban (ID) add or remove - defualt ankit sys layout
 
 #To whom ever this may concern, All rights to Mikahael aka PCModder/Avarohana as the License states above.
+
+# 𝒮𝓅𝑒𝒸𝒾𝒶𝓁 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈 𝒻𝑜𝓇 𝒢𝒶𝓂𝑒
+
++Includes the special commands owner or admins can use for server
+
++?tag - enables tag for every person
+
++charf - forces everyone to use that char perm until turned off
+ Works with wizard, pixie, ninja, santa, robot, ali, frosty, pengu
+ Example - ?wizardf, to turn off, type same command again
+ 
++?rchar - forces everyone to use a random char perm
+ Example - ?rchar
+ To diable, type ?rchar or type same command again
+ 
++?(bombtype)shower 0 - enables meteor shower with specified bomb
+ Works with bombtypes - normal, sticky, ice, cursy, frozen, pwp, glue, impact
+ Example - ?nomalshower 0, ?stickyshower 0
+ There is no disabling it - stops at end of match
+ 
++?(snowtype)snow 0 - enables snow on maps
+ Works with sweat, ice, spark, splinter, slime
+ Example - ?sweatsnow 0, ?sparksnow 0, etc
+ There is no disabling it - stops at end of match
+
++?pow(emittype) - enables pwp emition with specified emittype
+ Works with sweat, slime, splinter, ice
+ Example - ?powslime, ?powice, ?powsplint, ?powsweat
+ To distable, type the same command again
+ 
++?color - changes color of player when punch button pressed
+ Example - ?color
+ To disable, type ?color or same command again
+ 
++?randomchar - changes character of player when hold button pressed
+ Example - ?randomchar
+ To disable, type ?randomchar or same command again
+ 
++?(bombtype)f - changes default bombtype to desire
+ Works with shock, ice, sticky, spike, glue, impact, knock
+ Example - ?shockf, ?icef, ?stickyf, etc
+ To disable, type same command again
+ Use only one default bomb at a time! Dont mix and match
+
++?hp - enabled HP tag for players
+ Example - ?hp
+ To disable, type the same command again
+ When used, removes PC tag and rank tag
+ 
++?shieldf - enables default shield for players
+ Example - ?shieldf
+ To disable, type the same command again
+ 
++?glovef - enables default gloves for players
+ Example - ?glovef
+ To disable, type the same command again
+ 
++?maps - enables new maps textures
+ Example - Use ?map1 or ?map2, then type what it says
+ Use /reset to disable the map until game over
+ 
++?pwp - enables or disables the powerup
+ Example - ?pwp
+ To disable, type the same command again
+ 
++?vanilla - enables default pwp distribution
+ Example - ?vanilla
+ To disable, type the same command again
+ Do not use with ?powerups, disable ?powerups if on, then use
+ 
++?powerups - enables PC powerups, or modded powerups
+ Example - ?powerups
+ To disable, type the same command again
+ Do not use with ?vanilla, disable ?vanilla if on, then use
+ 
++?bombmodel - enables new bombmodel for all bombs
+ Example - ?bombmodel
+ To disable, type this same command again
+ 
++?powerupname - enables or disables powerup name
+ Example - ?powerupname
+ To disable or enable, type ?powerupname or same command again
+ 
++?animate - enables flashy name color on pwp and bomb, and shield on bomb
+ Example - ?animate
+ To disable, type ?animate or same command again
+ 
++?discolight - enables discolight on the powerups
+ Example - ?discolight
+ To disable, type ?discolight or same command again
+ 
++?bombname - enables or disables bomb name
+ Example - ?bombname
+ To disable, type ?bombname or same command again
+ 
++?ffaMode on - enables ffamode immediately
+ Example - ?ffaMode on
+ To revert back to teammode, use ?teamMode on
+
++?teamMode on - enables teammode immediately
+ Example - ?teamMode on
+ To revert back to ffamode, use ?ffaMode on
+ 
++?plo - enables or disables explosion when powerup spawns
+ Example - ?plo
+ To disable, type ?plo or the same command again
+ 
++?pop - enables or disables popuptext when pwp touched
+ Example - ?pop
+ To disable, type ?pop or same command again
+ 
++?flash - enables or disables powerup model addition
+ Example - ?flash
+ To disable, type ?flash or same command again
+ 
++?lightning - enables or disables powerup lightning effect
+ Example - ?lightning
+ To disable, type ?lightning or same command again
+ 
++?floater - enables floater to be turned on
+ Example - ?floater
+ To disable, type ?floater or same command again
+ During daytime, floater is regular/landmine floater
+ During night time, floater is PC floater
