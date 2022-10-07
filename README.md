@@ -55,7 +55,7 @@
 
 '?shower and ?snowy
 
-'View Full Cmds in commmandList.pdf
+'View Full Cmds in commmandList.pdf or scroll down
 
 # 𝐼𝓃𝓉𝓇𝑜𝒹𝓊𝒸𝒾𝓃𝑔 𝐹𝒶𝓈𝓉𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
@@ -314,3 +314,5 @@ Avarohana/PCModder
  To disable, type ?floater or same command again,
  During daytime, floater is regular/landmine floater,
  During night time, floater is PC floater
+ 
+~ To whomsoever this may concern, all rights to PCMODDER/PC231392/Mikahael, as the license states.
