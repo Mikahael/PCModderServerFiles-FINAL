@@ -37,7 +37,7 @@
 
 'A few special server commands -
 
-'For PC commands use '?
+'For PC commands use '?'
 
 'For Ankit commands use '/'
 
