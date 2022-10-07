@@ -2,7 +2,9 @@ import bs
 import bsInternal
 import settings
 
-f_words = ["fuck","shit","tits"]
+f_words = ["fuck","shit","tits","nigg","69","bastard","cum"]
+
+name_filter = ['cum','cumshot','boob','tit','titz','fuck','fucker','shit','shithead','pussy','PuSSy','fucked','bitch','bitches','bietch','sex','Sex','bastard','Fuck','Fucker','Cum','Bitch','devil','luci']
 
 warndict = {}
 
