@@ -141,4 +141,22 @@ Avarohana/PCModder
  
 *Anyone with blacklisted name gets kicked immedietly
 
+# Add or Remove roles
+
+*Roles work on both systems
+
+*Roles include admin, vip, mod, owner, owner2, mod2
+
+*owner2 and mod2 are tags with permissions, but tag name is emoty
+
+*Use owner2, owner, mod2 using --> ?owner2 instead of /owner2
+
+*For custom tag, use the defualt ankit system tag
+
+*For PC tag, use ?dtag, ?ctag, ?ftag, ?tag (ID) add or remove
+
+*To MUTE, use ?mute (ID) add or remove - muted until id removed
+
+*To BAN, use /ban (ID) add or remove - defualt ankit sys layout
+
 #To whom ever this may concern, All rights to Mikahael aka PCModder/Avarohana as the License states above.
