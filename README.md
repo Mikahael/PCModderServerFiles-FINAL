@@ -195,6 +195,16 @@ Avarohana/PCModder
 
 +Includes the special commands owner or admins can use for server
 
++?? special text for OWNERS only,
+ Example - ??hey_guys
+ Dont use spaces, use something else like .
+ Example - ?? hey_guys_how_are_you or ?? hi,guys,bye
+ 
+ +? special text for ADMIN/MOD only,
+ Example - ??hey_guys
+ Dont use spaces, use something else like .
+ Example - ?? hey_guys_how_are_you or ?? hi,guys,bye
+
 +?tag - enables tag for every person
 
 +charf - forces everyone to use that char perm until turned off,
