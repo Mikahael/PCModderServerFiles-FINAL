@@ -161,6 +161,36 @@ Avarohana/PCModder
 
 #To whom ever this may concern, All rights to Mikahael aka PCModder/Avarohana as the License states above.
 
+# 𝒜𝓊𝓉𝑜𝒩𝒾𝑔𝒽𝓉𝑀𝑜𝒹𝑒 𝒶𝓃𝒹 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓅𝓁𝒶𝒾𝓃𝒾𝓃𝑔
+
+*Server features an auto night mode
+
+*To enable the time, open the terminal, and change the TIMEZONE to desired
+
+*Example - sudo timedatectl set-timezone <your_time_zone>
+
+*Find your timezone in terminal - timedatectl list-timezones
+
+*Server has arranged a way for clients to complain to owner for improvments
+
+*View complaints in complaints.txt in first directory, next to bs_headless.py, not scripts
+
+*Use comp (your message here) + add your name to the complaint
+
+*Example - comp they are teaming, comp add this powerup to server
+
+# 𝐿𝑜𝑔𝑔𝒾𝓃𝑔 𝒻𝑒𝒶𝓉𝓊𝓇𝑒𝓈
+
+*Server has many logging features
+
+*Open complaints.txt to see complaints log
+
+*Use banLog.txt to see if banned players joining
+
+*Use kicklog.txt to see who has been kicked
+
+*Use cmdlog.txt to see which commands admins/vips or owners have been using
+
 # 𝒮𝓅𝑒𝒸𝒾𝒶𝓁 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈 𝒻𝑜𝓇 𝒢𝒶𝓂𝑒
 
 +Includes the special commands owner or admins can use for server
