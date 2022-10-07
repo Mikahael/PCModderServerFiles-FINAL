@@ -31,6 +31,18 @@
 
 *Live time working whitelist and ban list
 
+# Chat Filters and Name Filters
+
+*Server filters both chat messages and Names!
+
+*To add a word to chat fiter, open fiter.py and add the word
+ in the f_word hashes.
+ 
+*To add a word to the Name filter, open filter.py and add the
+ name in the name_filter hashes.
+ 
+*Anyone with blacklisted name gets kicked immedietly
+
 *Full working server files created by Avarohana or PCModder
 
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
