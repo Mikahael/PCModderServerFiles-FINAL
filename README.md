@@ -263,24 +263,24 @@ Avarohana/PCModder
  Example - ?teamMode on
  To revert back to ffamode, use ?ffaMode on
  
-+?plo - enables or disables explosion when powerup spawns
- Example - ?plo
++?plo - enables or disables explosion when powerup spawns,
+ Example - ?plo,
  To disable, type ?plo or the same command again
  
-+?pop - enables or disables popuptext when pwp touched
- Example - ?pop
++?pop - enables or disables popuptext when pwp touched,
+ Example - ?pop,
  To disable, type ?pop or same command again
  
-+?flash - enables or disables powerup model addition
- Example - ?flash
++?flash - enables or disables powerup model addition,
+ Example - ?flash,
  To disable, type ?flash or same command again
  
-+?lightning - enables or disables powerup lightning effect
- Example - ?lightning
++?lightning - enables or disables powerup lightning effect,
+ Example - ?lightning,
  To disable, type ?lightning or same command again
  
 +?floater - enables floater to be turned on
- Example - ?floater
- To disable, type ?floater or same command again
- During daytime, floater is regular/landmine floater
+ Example - ?floater,
+ To disable, type ?floater or same command again,
+ During daytime, floater is regular/landmine floater,
  During night time, floater is PC floater
