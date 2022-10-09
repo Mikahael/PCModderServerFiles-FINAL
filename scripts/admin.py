@@ -17,6 +17,7 @@ from bsSpaz import _BombDiedMessage,_CurseExplodeMessage,_PickupMessage,_PunchHi
 import settings
 import membersID as MID
 import fire
+import filter
 
 
 class PermissionForEffect(object):
@@ -485,8 +486,7 @@ class Enhancement(bs.Actor):
         cName = player.getName()
         bright = ((0+random.random()*1.0),(0+random.random()*1.0),(0+random.random()*1.0))
 
-        ban = 'cum','cumshot','boob','boobies','tit','titz','fuck','fucker','shit','shithead','pussy','PuSSy','fucked','bitch','bitches','bietch','sex','Sex','bastard','Fuck','Fucker','Cum','Bitch'
-        
+        ban = filter.name_filter
         for word in ban:
             if word in cName.lower(): 
                 try:
@@ -868,20 +868,20 @@ class Enhancement(bs.Actor):
 		    if int(rank) < 6:
 			#dragon='?' crown=? fireball=?	ninja=? skull=?	
 			if rank == '1':
-				icon = '?' #crown
+				icon = u'\ue043' #crown
 				if flag == 0 and settings.enableTop5effects: self.neroLightTimer = bs.Timer(500, bs.WeakCall(self.neonLightSwitch,("shine" in self.Decorations),("extra_Highlight" in self.Decorations),("extra_NameColor" in self.Decorations)),repeat = True)
 			elif rank == '2': 
-				icon = '?' #dragon
+				icon = u'\ue048' #dragon
 				if flag ==0 and settings.enableTop5effects: self.smokeTimer = bs.Timer(40, bs.WeakCall(self.emitSmoke), repeat=True)
 			elif rank == '3': 
-				icon ='?' #helmet'
+				icon = u'\ue049' #helmet'
 				if flag == 0 and settings.enableTop5effects: self.addLightColor((1, 0.6, 0.4));self.scorchTimer = bs.Timer(500, bs.WeakCall(self.update_Scorch), repeat=True)
 			elif rank == '4': 
-				icon = '?' #fireball
+				icon = u'\ue00c' #fireball
 				if flag ==0 and settings.enableTop5effects: self.metalTimer = bs.Timer(500, bs.WeakCall(self.emitMetal), repeat=True)
 
 			else: 
-				icon = '?' #bull head  
+				icon = u'\ue047' #bull head  
 				if flag==0 and settings.enableTop5effects: self.addLightColor((1, 0.6, 0.4));self.checkDeadTimer = bs.Timer(150, bs.WeakCall(self.checkPlayerifDead), repeat=True)
 			display = icon + '#' + str(rank) +icon
 		        PermissionEffect(owner = spaz.node,position=(0,2,0),prefix = display,prefixAnim = {0: (1,1,1)},type = 2)
