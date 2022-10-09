@@ -1,37 +1,37 @@
 # 𝐵𝑜𝓂𝒷𝓈𝓆𝓊𝒶𝒹1.4||𝐹𝓊𝓁𝓁𝒮𝑒𝓇𝓋𝑒𝓇𝐹𝒾𝓁𝑒𝓈[𝒫𝒞𝑀𝑜𝒹𝒹𝑒𝓇] (UPDATED - 4.0)-FINAL
-*Server Files now are combined with ANKIT server files!
+- Server Files now are combined with ANKIT server files!
 
-*Enjoy the full beauty of Ankit System and PCModder System
+- Enjoy the full beauty of Ankit System and PCModder System
 
-*Contains 2 admin systems in 1 big package.
+- Contains 2 admin systems in 1 big package.
 
-*Added Question system and server sends message to Client only.
+- Added Question system and server sends message to Client only.
 
-*Added Ankit shop and chat commands.
+- Added Ankit shop and chat commands.
 
-*Contains best admin system with server configurations
+- Contains best admin system with server configurations
 
-*Extract the zip file and instructions on how to install are below
+- Extract the zip file and instructions on how to install are below
 
 # 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
 
-*Stongest Admin system to be ever created ~
+- Stongest Admin system to be ever created ~
 
-*A total of 73 powerups with triple configuration
+- A total of 73 powerups with triple configuration
 
-*Special roles for friends or top players
+- Special roles for friends or top players
 
-*Top Notch server commmands for configuration in real time
+- Top Notch server commmands for configuration in real time
 
-*Live New Bombsquad Textures configured in real time
+- Live New Bombsquad Textures configured in real time
 
-*Players can use any Characters even if they dont have
+- Players can use any Characters even if they dont have
 
-*Awesome New mods such as PCFloater
+- Awesome New mods such as PCFloater
 
-*Live time working whitelist and ban list
+- Live time working whitelist and ban list
 
-*Full working server files created by Avarohana or PCModder
+- Full working server files created by Avarohana or PCModder
 
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
@@ -120,76 +120,76 @@ Avarohana/PCModder
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝓌𝒽𝒾𝓉𝑒𝓁𝒾𝓈𝓉
 
-*To enable or disable whitelist, use ?whitelist
+- To enable or disable whitelist, use ?whitelist
 
-*To add a whitelisted client, use /white (ID) add
+- To add a whitelisted client, use /white (ID) add
 
-*To remove a whitelisted client, open getPermissionHashes.py and
+- To remove a whitelisted client, open getPermissionHashes.py and
  remove the id under whitelist hashes.
 
-*Whitelist permanent until turned off
+- Whitelist permanent until turned off
 
 # 𝒞𝒽𝒶𝓉 𝐹𝒾𝓁𝓉𝑒𝓇𝓈 𝒶𝓃𝒹 𝒩𝒶𝓂𝑒 𝐹𝒾𝓁𝓉𝑒𝓇𝓈
 
-*Server filters both chat messages and Names!
+- Server filters both chat messages and Names!
 
-*To add a word to chat fiter, open fiter.py and add the word
+- To add a word to chat fiter, open fiter.py and add the word
  in the f_word hashes.
  
-*To add a word to the Name filter, open filter.py and add the
+- To add a word to the Name filter, open filter.py and add the
  name in the name_filter hashes.
  
-*Anyone with blacklisted name gets kicked immedietly
+- Anyone with blacklisted name gets kicked immedietly
 
 # Add or Remove roles
 
-*Roles work on both systems
+- Roles work on both systems
 
-*Roles include admin, vip, mod, owner, owner2, mod2
+- Roles include admin, vip, mod, owner, owner2, mod2
 
-*owner2 and mod2 are tags with permissions, but tag name is emoty
+- owner2 and mod2 are tags with permissions, but tag name is emoty
 
-*Use owner2, owner, mod2 using --> ?owner2 instead of /owner2
+- Use owner2, owner, mod2 using --> ?owner2 instead of /owner2
 
-*For custom tag, use the defualt ankit system tag
+- For custom tag, use the defualt ankit system tag
 
-*For PC tag, use ?dtag, ?ctag, ?ftag, ?tag (ID) add or remove
+- For PC tag, use ?dtag, ?ctag, ?ftag, ?tag (ID) add or remove
 
-*To MUTE, use ?mute (ID) add or remove - muted until id removed
+- To MUTE, use ?mute (ID) add or remove - muted until id removed
 
-*To BAN, use /ban (ID) add or remove - defualt ankit sys layout
+- To BAN, use /ban (ID) add or remove - defualt ankit sys layout
 
 #To whom ever this may concern, All rights to Mikahael aka PCModder/Avarohana as the License states above.
 
 # 𝒜𝓊𝓉𝑜𝒩𝒾𝑔𝒽𝓉𝑀𝑜𝒹𝑒 𝒶𝓃𝒹 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓅𝓁𝒶𝒾𝓃𝒾𝓃𝑔
 
-*Server features an auto night mode
+- Server features an auto night mode
 
-*To enable the time, open the terminal, and change the TIMEZONE to desired
+- To enable the time, open the terminal, and change the TIMEZONE to desired
 
-*Example - sudo timedatectl set-timezone <your_time_zone>
+- Example - sudo timedatectl set-timezone <your_time_zone>
 
-*Find your timezone in terminal - timedatectl list-timezones
+- Find your timezone in terminal - timedatectl list-timezones
 
-*Server has arranged a way for clients to complain to owner for improvments
+- Server has arranged a way for clients to complain to owner for improvments
 
-*View complaints in complaints.txt in first directory, next to bs_headless.py, not scripts
+- View complaints in complaints.txt in first directory, next to bs_headless.py, not scripts
 
-*Use comp (your message here) + add your name to the complaint
+- Use comp (your message here) + add your name to the complaint
 
-*Example - comp they are teaming, comp add this powerup to server
+- Example - comp they are teaming, comp add this powerup to server
 
 # 𝐿𝑜𝑔𝑔𝒾𝓃𝑔 𝒻𝑒𝒶𝓉𝓊𝓇𝑒𝓈
 
-*Server has many logging features
+- Server has many logging features
 
-*Open complaints.txt to see complaints log
+- Open complaints.txt to see complaints log
 
-*Use banLog.txt to see if banned players joining
+- Use banLog.txt to see if banned players joining
 
-*Use kicklog.txt to see who has been kicked
+- Use kicklog.txt to see who has been kicked
 
-*Use cmdlog.txt to see which commands admins/vips or owners have been using
+- Use cmdlog.txt to see which commands admins/vips or owners have been using
 
 # 𝒮𝓅𝑒𝒸𝒾𝒶𝓁 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈 𝒻𝑜𝓇 𝒢𝒶𝓂𝑒
 
