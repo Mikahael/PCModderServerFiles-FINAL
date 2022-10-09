@@ -2220,13 +2220,14 @@ class GameActivity(Activity):
         current_time = time.strftime("%H:%M:%S", t)
         day = '6:00:00' #6am
         night = '18:00:00' #6pm
-        if current_time > night and current_time < day:
-            bs.getSharedObject('globals').tint = (0.5,0.7,1)
-            if settings.floater:
-                fire.pcfloater = True
-        else:
-            if settings.floater:
-                fire.pcfloater = False
+        if settings.auto_night:
+            if current_time > night and current_time < day:
+                bs.getSharedObject('globals').tint = (0.5,0.7,1)
+                if settings.floater:
+                    fire.pcfloater = True
+            else:
+                if settings.floater:
+                    fire.pcfloater = False
         return self._map
 
     def getInstanceDisplayString(self):
