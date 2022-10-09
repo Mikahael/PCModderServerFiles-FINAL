@@ -91,6 +91,8 @@ FlyMaps = False  # Whether or not to enable the 3D flying maps in games playlist
 
 floater = False
 
+auto_night = True
+
 
 def return_yielded_game_texts():
     for text in gameTexts:
