@@ -37,7 +37,7 @@ tag = False#a fresh tag given to all spazes
 
 powSet = True #no pwp on map
 #disable or enable pwp if false pwp will not be accepted
-pwp = False
+pwp = True
 #never change the order of this list, if you want to add more settings go all the way down and add
 atomModel = True #never turn off
 #if you want pc powerups enable this
