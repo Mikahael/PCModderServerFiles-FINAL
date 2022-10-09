@@ -21,4 +21,5 @@ whitelist = {}
 
 #donot change the order of the list
 #to enable/disable commands and effects for top 5 players goto settings.py
+#kindly keep vivek id for owner.
 
