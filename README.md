@@ -35,45 +35,45 @@
 
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
-'A few special server commands -
+- A few special server commands -
 
-'For PC commands use '?'
+- For PC commands use '?'
 
-'For Ankit commands use '/'
+- For Ankit commands use '/'
 
-'?verification
+- ?verification
 
-'?mute
+- ?mute
 
-'?teamMode on
+- ?teamMode on
 
-'?ffaMode on
+- ?ffaMode on
 
-'?floater
+- ?floater
 
-'?maps
+- ?maps
 
-'?shower and ?snowy
+- ?shower and ?snowy
 
-'View Full Cmds in commmandList.pdf or scroll down
+- View Full Cmds in commmandList.pdf or scroll down
 
 # 𝐼𝓃𝓉𝓇𝑜𝒹𝓊𝒸𝒾𝓃𝑔 𝐹𝒶𝓈𝓉𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
-'A mod created to ease typing commands and related to advancedPartyWindow
+- A mod created to ease typing commands and related to advancedPartyWindow
 
-'Fast Commands mod works on 1.7+ Bombsquad Version APP
+- Fast Commands mod works on 1.7+ Bombsquad Version APP
 
-'To add the mod, open _ba_data_ folder
+- To add the mod, open _ba_data_ folder
 
-'Then open _python_ folder, then open _bastd_ folder
+- Then open _python_ folder, then open _bastd_ folder
 
-'In bastd folder, open _Ui_ folder, in it look for _party.py_
+- In bastd folder, open _Ui_ folder, in it look for _party.py_
 
-'Replace _party.py_ with my _party.py_ located above
+- Replace _party.py_ with my _party.py_ located above
 
-'Delete _pycache_ folder while exiting and start Bombsquad
+- Delete _pycache_ folder while exiting and start Bombsquad
 
-'Open PartyWindow and click ? Button, and Voila
+- Open PartyWindow and click ? Button, and Voila
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
 
@@ -99,21 +99,21 @@
 
 # 𝒯𝒽𝒶𝓃𝓀𝓈
 
-//Thanks to PCModder/PC231392/PC290717/Avarohana/Arohana(All are Me)
+- Thanks to PCModder/PC231392/PC290717/Avarohana/Arohana(All are Me)
 
-//Thanks to Blitz
+- Thanks to Blitz
 
-//Thanks to SobyDamn
+- Thanks to SobyDamn
 
-//Thanks to Vivek
+- Thanks to Vivek
 
-//Thanks to Bombdash
+- Thanks to Bombdash
 
-//Thanks to Esie-Eyen
+- Thanks to Esie-Eyen
 
-//Thanks to Knight
+- Thanks to Knight
 
-//Special thanks to ByAngel3L and Froshlee14
+- Special thanks to ByAngel3L and Froshlee14
 
 Thank You for all Using, kindly to give me some credit to those who use,
 Avarohana/PCModder
