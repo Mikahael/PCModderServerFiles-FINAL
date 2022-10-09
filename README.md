@@ -325,4 +325,14 @@ Avarohana/PCModder
  During daytime, floater is regular/landmine floater,
  During night time, floater is PC floater
  
+# Auto admin and Auto vip
+
+- Server has rank system enabled
+
+- Auto admin and auto vip works on commands
+
+- To update ADMIN in top 1, type /auto admin
+
+- To update VIP in top 4, type /auto vip
+ 
 ~ To whomsoever this may concern, all rights to PCMODDER/PC231392/Mikahael, as the license states.
