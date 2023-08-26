@@ -161,6 +161,8 @@
 
 - Thanks to SobyDamn
 
+- Thanks to Vortex
+
 - Thanks to Vivek
 
 - Thanks to Bombdash
@@ -168,7 +170,7 @@
 - Thanks to Esie-Eyen
 
 - Thanks to Knight
-
+  
 - Special thanks to ByAngel3L and Froshlee14
 
 Thank You for all Using, kindly to give me some credit to those who use,
