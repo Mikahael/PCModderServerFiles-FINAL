@@ -44,6 +44,26 @@
     - use /white to add players
     - use ?whitelist to start setting
     - server will restart at once whitelist enabled
+   
+- Prevent Brute Entry attacks - fail2ban
+  - mod to prevent hackers crashing server or gaining entry
+  - install fail2ban module
+    - sudo apt-get update
+    - sudo apt-get install fail2ban
+  - configure the module
+    - open the folder - /etc/fail2ban/
+      - open jail.local file
+      - change bantime value to -1
+      - change findtime value t0 30
+      - change maxentry value to 3
+        - three chances to enter correct or ban
+      - use cntrl+f to search for the terms, and change values as said
+      - save the file
+  - open terminal and enter commands
+    - sudo systemctl start fail2ban
+    - sudo systemctl enable fail2ban
+  - Server will now ban all those trying to brute entry attack - usefull
+  - Will work depending on the attack
   
 # 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
 
