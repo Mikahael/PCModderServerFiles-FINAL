@@ -37,6 +37,7 @@
   - time added in textonmap
   - member_count added in textonmap
   - authentication mod has been added
+    - enable it in fire.py under authentication
     - no one can spoof id else kick
   - scoreboard and gamename changes
   - improved whitelist
