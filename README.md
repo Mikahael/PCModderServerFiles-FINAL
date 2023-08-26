@@ -19,6 +19,26 @@
   - settings_spaz - player settings
   - settings_bomb - bomb settings
   - settings_powerups - powerup settings
+  - getPermissionsHashes - add owner/admin hashes
+  - bsTextOnMap - to change textonmap
+
+- Edit for powerup dist changes
+  - dist_vanilla - default powerups
+  - dist_regular - regular powerups with extra
+  - dist_modded - full modded powerups
+  - enable the dist you want in setttings_powerups.py
+  - make sure both dist values never becomes true
+  - both dist values false means, dist_regular turned true
+  
+- What has changed in this 5.0 version?
+  - improved chat filter
+  - chat commands now transient
+  - coinsystem more transient
+  - time added in textonmap
+  - member_count added in textonmap
+  - authentication mod has been added
+    - no one can spoof id else kick
+  - scoreboard and gamename changes
   
 # 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
 
