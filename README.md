@@ -13,6 +13,12 @@
   - pkill -f tmux
   - tmux
   - ./bombsquad_server
+ 
+  - Edit the files for simple changes
+    - fire.py - server settings - includes welcome msg
+    - settings_spaz - player settings
+    - settings_bomb - bomb settings
+    - settings_powerups - powerup settings
   
 # 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
 
