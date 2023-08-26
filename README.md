@@ -89,6 +89,29 @@
 
 - Full working server files created by Avarohana or PCModder
 
+# 𝒯𝒽𝒶𝓃𝓀𝓈
+
+- Thanks to PCModder/PC231392/PC290717/Avarohana/Arohana(All are Me)
+
+- Thanks to Blitz
+
+- Thanks to SobyDamn
+
+- Thanks to Vortex
+
+- Thanks to Vivek
+
+- Thanks to Bombdash
+
+- Thanks to Esie-Eyen
+
+- Thanks to Knight
+  
+- Special thanks to ByAngel3L and Froshlee14
+
+Thank You for all Using, kindly to give me some credit to those who use,
+Avarohana/PCModder
+
 # 𝒮𝑒𝓇𝓋𝑒𝓇 𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
 
 - A few special server commands -
@@ -113,24 +136,6 @@
 
 - View Full Cmds in commmandList.pdf or scroll down
 
-# 𝐼𝓃𝓉𝓇𝑜𝒹𝓊𝒸𝒾𝓃𝑔 𝐹𝒶𝓈𝓉𝒞𝑜𝓂𝓂𝒶𝓃𝒹𝓈
-
-- A mod created to ease typing commands and related to advancedPartyWindow
-
-- Fast Commands mod works on 1.7+ Bombsquad Version APP
-
-- To add the mod, open _ba_data_ folder
-
-- Then open _python_ folder, then open _bastd_ folder
-
-- In bastd folder, open _Ui_ folder, in it look for _party.py_
-
-- Replace _party.py_ with my _party.py_ located above
-
-- Delete _pycache_ folder while exiting and start Bombsquad
-
-- Open PartyWindow and click ? Button, and Voila
-
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
 
 - Open _data_ folder
@@ -152,29 +157,6 @@
 - Copy my _scripts_ folder and paste it into your _data_ folder,
 
 - It may say replace files or folder, if so, press replace all
-
-# 𝒯𝒽𝒶𝓃𝓀𝓈
-
-- Thanks to PCModder/PC231392/PC290717/Avarohana/Arohana(All are Me)
-
-- Thanks to Blitz
-
-- Thanks to SobyDamn
-
-- Thanks to Vortex
-
-- Thanks to Vivek
-
-- Thanks to Bombdash
-
-- Thanks to Esie-Eyen
-
-- Thanks to Knight
-  
-- Special thanks to ByAngel3L and Froshlee14
-
-Thank You for all Using, kindly to give me some credit to those who use,
-Avarohana/PCModder
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝓌𝒽𝒾𝓉𝑒𝓁𝒾𝓈𝓉
 
