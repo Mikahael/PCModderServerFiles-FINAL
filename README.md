@@ -39,6 +39,10 @@
   - authentication mod has been added
     - no one can spoof id else kick
   - scoreboard and gamename changes
+  - improved whitelist
+    - use /white to add players
+    - use ?whitelist to start setting
+    - server will restart at once whitelist enabled
   
 # 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
 
