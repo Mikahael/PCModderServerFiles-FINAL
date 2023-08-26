@@ -1,20 +1,25 @@
 # 𝐵𝑜𝓂𝒷𝓈𝓆𝓊𝒶𝒹1.4||𝐹𝓊𝓁𝓁𝒮𝑒𝓇𝓋𝑒𝓇𝐹𝒾𝓁𝑒𝓈[𝒫𝒞𝑀𝑜𝒹𝒹𝑒𝓇] (UPDATED - 5.0)-FINAL - COMING!
-- Server Files now are combined with ANKIT server files!
+- HOW TO RUN:
+
+- Download the file - extract in the server
+
+- Open terminal, install python or run the followng commands :
+  - cd <your_bs_folder>
+  - sudo apt-get update -y
+  - sudo apt-get install -y python2.7-dev
+  - chmod 777 bombsquad_server
+  - chmod 777 config.py
+  - chmod 777 bs_headless
+  - pkill -f tmux
+  - tmux
+  - ./bombsquad_server
+  
+# 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
 
 - Enjoy the full beauty of Ankit System and PCModder System
 
 - Contains 2 admin systems in 1 big package.
-
-- Added Question system and server sends message to Client only.
-
-- Added Ankit shop and chat commands.
-
-- Contains best admin system with server configurations
-
-- Extract the zip file and instructions on how to install are below
-
-# 𝒲𝒽𝒶𝓉 𝒾𝓉 𝒞𝑜𝓃𝓉𝒶𝒾𝓃𝓈
-
+ 
 - Stongest Admin system to be ever created ~
 
 - A total of 73 powerups with triple configuration
