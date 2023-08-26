@@ -16,19 +16,6 @@ import copy
 #import requests
 from threading import Timer
 
-#Server Status checker by Rocky
-#def PingOnlineServer():
-#   try:
-#        r = requests.get(url = "https://serverstatus.professorfish.repl.co/report?token=sdajdaksjdaskdasndmsdf654asdf456asd564asd564asd564asd456asd546asd456as465d4sa56d465sda465sad456s4a56d456sad465sa46d5sadasd34as4d35as4d")
-#        data = r.json()
-#    except Exception as e:
-#        print(e)
-#        print("FAILED TO PING THE SERVER STATUS SERVER")
-#    finally:
-#       Timer(10, PingOnlineServer).start()
-#
-#PingOnlineServer()
-
 # we expect to be running from the dir where this script lives
 script_dir = os.path.dirname(sys.argv[0])
 if script_dir != '':
@@ -54,7 +41,7 @@ config = {}
 
 # Name of our server in the public parties list
 #config['partyName'] = u"\U0001F94A|VORTEX AND HONOR SMASH|\U0001F94A"
-config['partyName'] = u"\U0001F94A|VORTEX AND FORREST EPIC WRLD|\U0001F94A"
+config['partyName'] = u"\U0001F94A|VORTEX AND PCMODDER EPIC WRLD|\U0001F94A"
 
 # If True, your party will show up in the global public party list
 # Otherwise it will still be joinable via LAN or connecting by IP address
