@@ -27,8 +27,8 @@
   - dist_regular - regular powerups with extra
   - dist_modded - full modded powerups
   - enable the dist you want in setttings_powerups.py
-  - make sure both dist values never becomes true
-  - both dist values false means, dist_regular turned true
+    - make sure both dist values never becomes true
+    - both dist values false means, dist_regular turned true
   
 - What has changed in this 5.0 version?
   - improved chat filter
