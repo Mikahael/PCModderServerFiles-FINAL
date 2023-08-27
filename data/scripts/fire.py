@@ -1,7 +1,7 @@
 #PCMODDER ~ AVAROHANA
 #
 #seperated the mighty fire.py
-#now contains a few basic server settings
+#now contains a few basic server settings :D
 #
 #
 whitelist = False
