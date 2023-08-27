@@ -6,7 +6,7 @@
 #
 modded_powerups = False
 #
-vanilla = False
+vanilla = True
 #
 grav = False
 #
