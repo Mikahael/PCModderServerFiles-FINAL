@@ -203,8 +203,6 @@ Avarohana/PCModder
 
 - Open complaints.txt to see complaints log
 
-- Use banLog.txt to see if banned players joining
-
 - Use kicklog.txt to see who has been kicked
 
 - Use cmdlog.txt to see which commands admins/vips or owners have been using
@@ -343,7 +341,7 @@ Avarohana/PCModder
  During daytime, floater is regular/landmine floater,
  During night time, floater is PC floater
  
-# Auto admin and Auto vip
+# Concerns/AutoRole
 
 - Server has rank system enabled
 
