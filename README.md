@@ -54,7 +54,7 @@
     - open the folder - /etc/fail2ban/
       - open jail.local file
       - change bantime value to -1
-      - change findtime value t0 30
+      - change findtime value to 30
       - change maxentry value to 3
         - three chances to enter correct or ban
       - use cntrl+f to search for the terms, and change values as said
