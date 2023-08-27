@@ -136,28 +136,6 @@ Avarohana/PCModder
 
 - View Full Cmds in commmandList.pdf or scroll down
 
-# 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒜𝒫𝒫
-
-- Open _data_ folder
-
-- Delete the current _scripts_ folder in the _data_ folder
-
-- Copy my _scripts_ folder and paste it into your _data_ folder,
-
-- The _scripts_ folder is located in _data_ folder.
-
-- It may say replace files or folder, if so, press replace all
-
-# 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝒻𝑜𝓇 𝒮𝑒𝓇𝓋𝑒𝓇
-
-- Open _data_ folder
-
-- Delete the current _scripts_ folder in the _data_ folder
-
-- Copy my _scripts_ folder and paste it into your _data_ folder,
-
-- It may say replace files or folder, if so, press replace all
-
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝓌𝒽𝒾𝓉𝑒𝓁𝒾𝓈𝓉
 
 - To enable or disable whitelist, use ?whitelist
@@ -167,7 +145,7 @@ Avarohana/PCModder
 - To remove a whitelisted client, open getPermissionHashes.py and
  remove the id under whitelist hashes.
 
-- Whitelist permanent until turned off
+- Server will restart after enabling whitelist
 
 # 𝒞𝒽𝒶𝓉 𝐹𝒾𝓁𝓉𝑒𝓇𝓈 𝒶𝓃𝒹 𝒩𝒶𝓂𝑒 𝐹𝒾𝓁𝓉𝑒𝓇𝓈
 
