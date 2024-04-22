@@ -1063,9 +1063,10 @@ class cheatOptions(object):
                     if self.checkOwner(nick):
                         bsInternal.quit()
                 elif m == '?nv':
-                    if self.tint is None:
-                        self.tint = bs.getSharedObject('globals').tint
-                    bs.getSharedObject('globals').tint = (0.5,0.7,1) if a == [] or not a[0] == u'off' else self.tint
+                    if self.checkVip(nick):
+                        if self.tint is None:
+                            self.tint = bs.getSharedObject('globals').tint
+                        bs.getSharedObject('globals').tint = (0.5,0.7,1) if a == [] or not a[0] == u'off' else self.tint
 
                 elif m == '?freeze': #shield
                     if self.checkVip(nick):
