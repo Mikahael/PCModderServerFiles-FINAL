@@ -461,9 +461,9 @@ class Chooser(object):
         if isRemote:
             # FIXME - pull this from remote player (but make sure to
             # filter it to ones we've got)
-            self.characterNames = ['Spaz']
+            self.characterNames = ['Spaz','Grumbledorf','Zoe','Mel','Santa Claus','Frosty','Bones','Bernard','Pixel','Pascal','Taobao Mascot','Agent Johnson','B-9000','Easter Bunny','Kronk','Snake Shadow','Jack Morgan']
         else:
-            self.characterNames = self.getLobby().characterNamesLocalUnlocked
+            self.characterNames = ['Spaz','Grumbledorf','Zoe','Mel','Santa Claus','Frosty','Bones','Bernard','Pixel','Pascal','Taobao Mascot','Agent Johnson','B-9000','Easter Bunny','Kronk','Snake Shadow','Jack Morgan']
 
         # if we're a local player, pull our local profiles from the config..
         # otherwise ask the remote-input-device for its profile list
