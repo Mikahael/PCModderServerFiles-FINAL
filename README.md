@@ -31,6 +31,7 @@
     - both dist values false means, dist_regular turned true
   
 - What has changed in this 5.0 version?
+  - added endvote - /endvote to start, /vote to vote
   - improved chat filter
   - chat commands now transient
   - coinsystem more transient
