@@ -26,6 +26,62 @@ class Custom(object):
 def make_custom(id, tag):
     custom = Custom(id, tag)
     return custom
+    
+votes = {}
+vote_in_progress = False
+
+def end_vote():
+    global votes, vote_in_progress
+    votes = {}
+    vote_in_progress = True
+
+    # Announce the vote
+    bs.screenMessage("Vote to end the match has started. Type 1 for yes, 0 for no.",
+                     color=(0 + random.random() * 2.5, 0 + random.random() * 2.5, 0 + random.random() * 2.5), transient=True)
+
+    # Set a timer for 20 seconds to count votes and end the match
+    bs.gameTimer(20000, count_votes)
+
+def count_votes():
+    global vote_in_progress
+    vote_in_progress = False
+
+    #bs.screenMessage("Counting votes...")
+
+    yes_votes = sum(vote for vote in votes.values())
+    no_votes = len(votes) - yes_votes
+
+    bs.screenMessage("Counting Votes...\nVotes counted: Yes: {} No: {}".format(yes_votes, no_votes))
+
+    if yes_votes > no_votes:
+        def _wait():
+            bs.screenMessage('The match will end now!', color=(0, 1, 0), transient=True)
+            bsInternal._getForegroundHostActivity().endGame()
+        bs.gameTimer(2500, bs.Call(_wait))
+    else:
+        def _wait():
+            bs.screenMessage('The vote to end the match failed!', color=(1, 0, 0), transient=True)
+        bs.gameTimer(2500, bs.Call(_wait))
+
+def handle_vote(clientID, vote):
+    if not vote_in_progress:
+        bs.screenMessage("No vote in progress. Start a vote first!", clients=[clientID], transient=True)
+        return
+
+    if vote not in [0, 1]:
+        bs.screenMessage("Invalid vote. Use 1 for yes, 0 for no.", clients=[clientID], transient=True)
+        return
+
+    global votes
+    for i in bsInternal._getForegroundHostActivity().players:
+        if i.getInputDevice().getClientID()==clientID:
+            playeraccountid=i.get_account_id()
+            playername=i.getName()
+    if clientID in votes:
+        bs.screenMessage("You have already voted ---> ".format(clientID), clients=[clientID], transient=True)
+    else:
+        votes[clientID] = vote
+        bs.screenMessage("Vote recorded: Client {} voted {}".format(playername, vote), transient=True)
 
 
 class chatOptions(object):
@@ -159,6 +215,18 @@ class chatOptions(object):
                 bsUtils.PopupText(ptxt, 
                                   scale=2.0,
                                   position=CidToActor(clientID).node.position).autoRetain()
+            elif m == '/endvote':
+                #concept by Sara and Zad
+                #fixed by PCModder
+                end_vote()
+            elif m == '/vote':
+                if a == []:
+                    bs.screenMessage('Vote Correctly! Use 0 for No, use 1 for yes!', clients=[clientID], transient=True)
+                else:
+                    if a[0] in ['1', '0']:
+                        handle_vote(clientID, int(a[0]))
+                    else:
+                        bs.screenMessage('Vote Correctly! Use 0 for No, use 1 for yes!', clients=[clientID], transient=True)
             elif m == '/teamName' and level > 2:
                 if a == []:
                 	bs.screenMessage('Try /teamName Red Blue',color=(1,1,1), clients=[clientID], transient=True)
