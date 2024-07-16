@@ -135,6 +135,10 @@ Avarohana/PCModder
 
 - ?shower and ?snowy
 
+- /endvote to start endvote
+
+- /vote to vote for endvote
+
 - View Full Cmds in commmandList.pdf or scroll down
 
 # 𝐻𝑜𝓌 𝓉𝑜 𝓊𝓈𝑒 𝓌𝒽𝒾𝓉𝑒𝓁𝒾𝓈𝓉
