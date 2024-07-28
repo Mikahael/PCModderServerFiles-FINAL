@@ -70,6 +70,8 @@
 
 - Enjoy the full beauty of Ankit System and PCModder System
 
+- Can be used in server builds and client builds
+
 - Contains 2 admin systems in 1 big package.
  
 - Stongest Admin system to be ever created ~
