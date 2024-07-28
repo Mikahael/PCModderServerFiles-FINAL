@@ -293,7 +293,6 @@ languageNamesTranslated = {
     'Spanish': 'Español',
     'Esperanto': 'Esperanto'
 }
-
 import bs
 env = bs.getEnvironment()
 if not env['platform'] == 'android':
