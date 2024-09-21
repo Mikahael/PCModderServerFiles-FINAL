@@ -3098,6 +3098,56 @@ class cheatOptions(object):
                         k = settings.enableVerification
                         bs.screenMessage('Server verification turned ---> '+str(k))        
                 elif m == '?floater': 
+                        playerlist = bsInternal._getForegroundHostActivity(
+                        ).players
+                        if not hasattr(bsInternal._getForegroundHostActivity(),
+                                       'flo'):
+                            import floater
+                            bsInternal._getForegroundHostActivity().flo = floater.Floater(bsInternal._getForegroundHostActivity()._mapType())
+                        floater = bsInternal._getForegroundHostActivity().flo
+                        if floater.controlled:
+                            bs.screenMessage(
+                                'Floater is already being controlled',
+                                color=(1, 0, 0))
+                            return
+                        for i in playerlist:
+                            if i.getInputDevice().getClientID() == clientID:
+                                clientID = i.getInputDevice().getClientID()
+                                bs.screenMessage(
+                                    'You\'ve Gained Control Over The Floater!\nPress Bomb to Throw Bombs and Punch to leave!\nYou will automatically get released after some time!',
+                                    clients=[clientID],
+                                    transient=True,
+                                    color=(0, 1, 1))
+
+                                def dis(i, floater):
+                                    i.actor.node.invincible = False
+                                    i.resetInput()
+                                    i.actor.connectControlsToPlayer()
+                                    floater.dis()
+
+                                # bs.gameTimer(15000,bs.Call(dis,i,floater))
+                                ps = i.actor.node.position
+                                i.actor.node.invincible = True
+                                floater.node.position = (ps[0], ps[1] + 1.5,
+                                                         ps[2])
+                                i.actor.node.holdNode = bs.Node(None)
+                                i.actor.node.holdNode = floater.node2
+                                i.actor.disconnectControlsFromPlayer()
+                                i.resetInput()
+                                floater.sourcePlayer = i
+                                floater.con()
+                                i.assignInputCall('pickUpPress', floater.up)
+                                i.assignInputCall('pickUpRelease', floater.upR)
+                                i.assignInputCall('jumpPress', floater.down)
+                                i.assignInputCall('jumpRelease', floater.downR)
+                                i.assignInputCall('bombPress', floater.drop)
+                                i.assignInputCall('punchPress',
+                                                  bs.Call(dis, i, floater))
+                                i.assignInputCall('upDown', floater.updown)
+                                i.assignInputCall('leftRight',
+                                                  floater.leftright)
+                                i.actor.afk_checker = None
+                    '''
                     if self.checkMod(nick):
                         if settings.floater == True:
                             settings.floater = False
@@ -3106,7 +3156,8 @@ class cheatOptions(object):
                             settings.floater = True
                             floaterTrue()
                         k = settings.floater
-                        bs.screenMessage('Floater turned ---> '+str(k))                
+                        bs.screenMessage('Floater turned ---> '+str(k))    
+                    '''
 
 
                 elif m == '?': 
