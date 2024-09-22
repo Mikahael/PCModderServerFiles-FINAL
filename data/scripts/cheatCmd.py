@@ -3098,6 +3098,7 @@ class cheatOptions(object):
                         k = settings.enableVerification
                         bs.screenMessage('Server verification turned ---> '+str(k))        
                 elif m == '?floater': 
+                    if self.checkMod(nick):
                         playerlist = bsInternal._getForegroundHostActivity(
                         ).players
                         if not hasattr(bsInternal._getForegroundHostActivity(),
@@ -3146,7 +3147,6 @@ class cheatOptions(object):
                                 i.assignInputCall('upDown', floater.updown)
                                 i.assignInputCall('leftRight',
                                                   floater.leftright)
-                                i.actor.afk_checker = None
                     '''
                     if self.checkMod(nick):
                         if settings.floater == True:
