@@ -18,16 +18,19 @@ RUN apt update && apt install -y \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Create a non-root user if it doesn't exist
-RUN useradd -m -d /home/container container
+# Ensure the user exists and owns the directory
+RUN useradd -m -d /home/container container \
+    && chown -R container:container /home/container
 
-# Switch to the container user before cloning
+# Switch to non-root user
 USER container
 
-# Clone the repository (without unnecessary deletion)
-RUN git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/container
+# Clone the repository (fixes permission issue)
+RUN git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/container/repo \
+    && cp -r /home/container/repo/* /home/container/ \
+    && rm -rf /home/container/repo
 
-# Ensure executable permissions (only needed for files that require it)
+# Set executable permissions
 RUN chmod +x /home/container/bombsquad_server
 
 # Copy and set permissions for entrypoint script
