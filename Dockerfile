@@ -1,39 +1,30 @@
-# Use a lightweight Ubuntu base image
-FROM ubuntu:22.04
+FROM ubuntu:18.04
 
-# Set the working directory
-WORKDIR /home/container
-
-# Install dependencies in one step
-RUN apt update && apt install -y \
-    python2.7-dev \
-    software-properties-common \
-    git \
-    libopenal-dev \
-    libvorbis-dev \
-    cmake \
-    clang-format \
-    rsync \
-    wget \
+# Install dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
+    vim \
+    python2.7-dev \
+    libsdl2-2.0-0 \
+    libpython2.7 \
+    ca-certificates \
+    libgl1 \
+    libstdc++6 \
     && rm -rf /var/lib/apt/lists/*
 
-# Ensure the user exists and owns the directory
-RUN useradd -m -d /home/container container \
-    && chown -R container:container /home/container
+# Download and extract BombSquad Server (Version 1.4.155)
+RUN curl -L https://files.ballistica.net/bombsquad/builds/old/BombSquad_Server_Linux_64bit_1.4.155.tar.gz -o /tmp/bombsquad_server.tar.gz && \
+    mkdir -p /BombSquad_Server && \
+    tar -zxvf /tmp/bombsquad_server.tar.gz -C /BombSquad_Server --strip 1 && \
+    rm /tmp/bombsquad_server.tar.gz
 
-# Switch to non-root user
-USER container
+# Set working directory
+WORKDIR /BombSquad_Server
 
-# Clone the repository (directly into /home/container)
-RUN git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/container
+# Ensure permissions
+RUN chmod +x bombsquad_server
 
-# Ensure the server script is executable
-RUN chmod +x /home/container/bombsquad_server
-
-# Copy entrypoint script
-COPY --chown=container:container entrypoint.sh /entrypoint.sh
+# Use an entrypoint script to run multiple commands
+COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
-
-# Set entrypoint
 ENTRYPOINT ["/entrypoint.sh"]
