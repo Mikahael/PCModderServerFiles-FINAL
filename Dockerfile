@@ -4,7 +4,7 @@ LABEL author="Aloe" maintainer="aloegovera@gmail.com"
 
 # Update and install dependencies
 RUN apt update \
-    && apt-get install -y python2.7 python2.7-pip python2.7-dev python2.7-venv \
+    && apt-get install -y python2.7-dev \
        libopenal-dev libsdl2-dev libvorbis-dev cmake clang-format rsync git \
     && useradd -m -d /home/container container
 
