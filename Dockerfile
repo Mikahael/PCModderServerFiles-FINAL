@@ -1,30 +1,30 @@
-FROM        ubuntu:22.04
+FROM ubuntu:22.04
 
-LABEL       author="Aloe" maintainer="aloegovera@gmail.com"
+LABEL author="Aloe" maintainer="aloegovera@gmail.com"
 
-# Install necessary packages
+# Update and install dependencies
 RUN apt update \
-    && apt-get install -y python2.7 python2.7-dev python-pip libopenal-dev libsdl2-dev libvorbis-dev cmake clang-format rsync \
+    && apt-get install -y python2.7 python2.7-pip python2.7-dev python2.7-venv \
+       libopenal-dev libsdl2-dev libvorbis-dev cmake clang-format rsync git \
     && useradd -m -d /home/container container
-
-# Switch to root to set up permissions
-USER root
-WORKDIR /home/container
-
-# Copy entrypoint script
-COPY ./entrypoint.sh /entrypoint.sh
-
-# Ensure entrypoint script is executable and has correct ownership
-RUN chmod +x /entrypoint.sh && chown -R container:container /home/container
 
 # Switch to non-root user
 USER container
-
-# Set environment variables
 ENV USER=container HOME=/home/container
-
-# Set working directory
 WORKDIR /home/container
 
-# Start the container with the entrypoint script
-CMD ["/bin/bash", "/entrypoint.sh"]
+# Clone the GitHub repository directly into /home/container/
+RUN git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/container \
+    && rm -rf /home/container/.git  # Optional: Remove .git folder if you don't need version control inside the container
+
+# Copy entrypoint script and set permissions
+USER root
+COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh && chown -R container:container /home/container
+USER container
+
+# Expose necessary ports
+EXPOSE 43210/udp
+
+# Set default command
+CMD [ "/bin/bash", "/entrypoint.sh" ]
