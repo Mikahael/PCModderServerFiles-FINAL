@@ -5,9 +5,12 @@ FROM ubuntu:20.04
 WORKDIR /home/container
 
 # Install dependencies
-RUN apt update && apt install -y python2.7-dev \
+RUN apt update && apt install -y \
+    python2.7-dev \
     software-properties-common \
     git \
+    libopenal-dev \
+    libvorbis-dev \
     cmake \
     clang-format \
     rsync \
