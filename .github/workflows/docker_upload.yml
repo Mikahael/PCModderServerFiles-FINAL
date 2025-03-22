@@ -24,9 +24,13 @@ jobs:
 
       - name: Build and tag Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository_owner }}/my_python27_image:latest .
+          IMAGE_NAME="ghcr.io/${{ github.repository_owner }}/my_python27_image:latest"
+          IMAGE_NAME_LOWER=$(echo $IMAGE_NAME | tr '[:upper:]' '[:lower:]')
+          docker build -t $IMAGE_NAME_LOWER .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ github.repository_owner }}/my_python27_image:latest
+          IMAGE_NAME="ghcr.io/${{ github.repository_owner }}/my_python27_image:latest"
+          IMAGE_NAME_LOWER=$(echo $IMAGE_NAME | tr '[:upper:]' '[:lower:]')
+          docker push $IMAGE_NAME_LOWER
 
