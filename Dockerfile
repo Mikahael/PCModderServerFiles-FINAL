@@ -22,7 +22,7 @@ RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
 WORKDIR /tmp/downloads
 
 # Download BombSquad server and extract it
-RUN wget -O bombsquad_server.tar.gz "https://files.ballistica.net/bombsquad/builds/old/BombSquad_Linux_64bit_1.4.155.tar.gz" && \
+RUN wget --no-check-certificate -O bombsquad_server.tar.gz "https://files.ballistica.net/bombsquad/builds/old/BombSquad_Linux_64bit_1.4.155.tar.gz" && \
     mkdir extracted && \
     tar -xvzf bombsquad_server.tar.gz -C extracted
 
