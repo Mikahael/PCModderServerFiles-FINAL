@@ -8,8 +8,6 @@ WORKDIR /home/container
 RUN apt update && apt install -y python2.7-dev \
     software-properties-common \
     git \
-    libopenal-dev \
-    libvorbis-dev \
     cmake \
     clang-format \
     rsync \
