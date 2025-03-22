@@ -8,8 +8,8 @@ RUN apt update \
        libopenal-dev libsdl2-dev libvorbis-dev cmake clang-format rsync git \
     && useradd -m -d /home/container container
 
-# Create a non-root user
-RUN useradd -m -d /home/container container
+# Create a non-root user if it doesn't already exist
+RUN id -u container >/dev/null 2>&1 || useradd -m -d /home/container container
 
 # Clone the repository into a temporary directory and move files
 RUN git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/temp_container \
