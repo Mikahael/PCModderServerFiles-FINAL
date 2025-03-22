@@ -1,6 +1,8 @@
-FROM ubuntu:22.04
+# Use a lightweight Ubuntu base image
+FROM ubuntu:20.04
 
-LABEL author="Aloe" maintainer="aloegovera@gmail.com"
+# Set the working directory
+WORKDIR /home/container
 
 # Install dependencies
 RUN apt update && apt install -y python2.7-dev \
@@ -15,22 +17,22 @@ RUN apt update && apt install -y python2.7-dev \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Ensure user exists
+# Create a non-root user if it doesn't exist
 RUN id -u container >/dev/null 2>&1 || useradd -m -d /home/container container
 
-# Clone repository into /home/container instead of moving it
-RUN git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/container \
-    && chown -R container:container /home/container \
-    && chmod +x /home/container/bombsquad_server  # Ensure executable permissions
+# Clone the repository (overwrite existing files)
+RUN rm -rf /home/container && git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/container
 
-# Copy and set permissions for entrypoint
-USER root
-COPY ./entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh && chown container:container /entrypoint.sh
+# Ensure proper ownership and permissions
+RUN chown -R container:container /home/container \
+    && chmod +x /home/container/bombsquad_server
+
+# Set the user to "container" (non-root)
 USER container
 
-# Expose necessary ports
-EXPOSE 43210/udp
+# Set the default entrypoint
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 
-# Run the startup script
-CMD [ "/bin/bash", "/entrypoint.sh" ]
+# Set entrypoint script
+ENTRYPOINT ["/entrypoint.sh"]
