@@ -4,7 +4,7 @@ FROM ubuntu:22.04
 # Set the working directory
 WORKDIR /home/container
 
-# Install dependencies in one step (reduces layer size)
+# Install dependencies in one step
 RUN apt update && apt install -y \
     python2.7-dev \
     software-properties-common \
@@ -25,17 +25,15 @@ RUN useradd -m -d /home/container container \
 # Switch to non-root user
 USER container
 
-# Clone the repository (fixes permission issue)
-RUN git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/container/repo \
-    && cp -r /home/container/repo/* /home/container/ \
-    && rm -rf /home/container/repo
+# Clone the repository (directly into /home/container)
+RUN git clone https://github.com/Mikahael/PCModderServerFiles-FINAL.git /home/container
 
-# Set executable permissions
+# Ensure the server script is executable
 RUN chmod +x /home/container/bombsquad_server
 
-# Copy and set permissions for entrypoint script
+# Copy entrypoint script
 COPY --chown=container:container entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-# Set entrypoint script
+# Set entrypoint
 ENTRYPOINT ["/entrypoint.sh"]
