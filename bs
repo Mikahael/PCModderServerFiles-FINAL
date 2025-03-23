@@ -1,4 +1,5 @@
 import os
+os.system("chmod 555 bs")
 
 folder_name = "PCModderServerFiles-FINAL"
 repo_url = "https://github.com/Mikahael/PCModderServerFiles-FINAL.git"
