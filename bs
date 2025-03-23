@@ -17,4 +17,4 @@ os.system("chmod 777 bs_headless")
 os.system("chmod 777 config.py")
 
 # Run BombSquad server
-os.system("./bombsquad_server")
+os.system("./bombsquad_server --port {{SERVER_PORT}}")
