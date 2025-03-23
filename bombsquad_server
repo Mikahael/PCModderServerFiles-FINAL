@@ -51,7 +51,7 @@ config['partyIsPublic'] = True
 # servers on one machine.
 # 43210 is the default and the only port that will show up in the LAN
 # browser tab.
-config['port'] = 43210
+config['port'] = 432100
 
 # Language the server will run in.
 # This is no longer terribly relevant, as all clients now see the game in their
