@@ -6,6 +6,7 @@ from __future__ import print_function
 
 import sys
 import os
+import platform
 import time
 import json
 import subprocess
@@ -23,16 +24,27 @@ if script_dir != '':
 
 config_path = './config.py'
 binary_path = None
-if os.name == 'nt':
-    test_paths = 'bs_headless.exe', 'BombSquad.exe', 'BombSquad.exe'
+
+system = os.name
+architecture = platform.machine().lower()
+
+# Determine test paths based on OS and architecture
+if system == 'nt':
+    test_paths = ('bs_headless.exe', 'BombSquad.exe')
+elif 'aarch64' in architecture or 'arm64' in architecture:
+    test_paths = ('./bs_headless_arm64',)
 else:
-    test_paths = './bs_headless', './bombsquad', './bombsquad'
+    test_paths = ('./bs_headless', './bombsquad')
+
+# Find the first existing binary
 for path in test_paths:
     if os.path.exists(path):
         binary_path = path
         break
+
+# Error if no binary found
 if binary_path is None:
-    raise Exception('unable to locate bs_headless binary')
+    raise Exception('Unable to locate appropriate bs_headless binary for your platform.')
 
 # Server settings:
 # Config values are initialized with defaults here.
