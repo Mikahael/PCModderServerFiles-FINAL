@@ -6,7 +6,6 @@ from __future__ import print_function
 
 import sys
 import os
-import platform
 import time
 import json
 import subprocess
@@ -24,27 +23,16 @@ if script_dir != '':
 
 config_path = './config.py'
 binary_path = None
-
-system = os.name
-architecture = platform.machine().lower()
-
-# Determine test paths based on OS and architecture
-if system == 'nt':
-    test_paths = ('bs_headless.exe', 'BombSquad.exe')
-elif 'aarch64' in architecture or 'arm64' in architecture:
-    test_paths = ('./bs_headless_arm64',)
+if os.name == 'nt':
+    test_paths = 'bs_headless.exe', 'BombSquad.exe', 'BombSquad.exe'
 else:
-    test_paths = ('./bs_headless', './bombsquad')
-
-# Find the first existing binary
+    test_paths = './bs_headless', './bombsquad', './bombsquad'
 for path in test_paths:
     if os.path.exists(path):
         binary_path = path
         break
-
-# Error if no binary found
 if binary_path is None:
-    raise Exception('Unable to locate appropriate bs_headless binary for your platform.')
+    raise Exception('unable to locate bs_headless binary')
 
 # Server settings:
 # Config values are initialized with defaults here.
@@ -53,7 +41,7 @@ config = {}
 
 # Name of our server in the public parties list
 #config['partyName'] = u"\U0001F94A|VORTEX AND HONOR SMASH|\U0001F94A"
-config['partyName'] = u"\U0001F94A|VORTEX AND PCMODDER EPIC WRLD|\U0001F94A"
+config['partyName'] = u"\U0001F94A|DEST OFFICIAL WORLD|\U0001F94A"
 
 # If True, your party will show up in the global public party list
 # Otherwise it will still be joinable via LAN or connecting by IP address
@@ -63,7 +51,7 @@ config['partyIsPublic'] = True
 # servers on one machine.
 # 43210 is the default and the only port that will show up in the LAN
 # browser tab.
-config['port'] = 43210
+config['port'] = 2006
 
 # Language the server will run in.
 # This is no longer terribly relevant, as all clients now see the game in their
