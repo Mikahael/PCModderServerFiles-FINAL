@@ -110,7 +110,7 @@
 
 - Thanks to Knight
 
-- Thanks to GOD
+- Thanks to God
   
 - Special thanks to ByAngel3L and Froshlee14
 
