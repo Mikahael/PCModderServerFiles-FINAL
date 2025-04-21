@@ -1,7 +1,7 @@
 import bs,bsInternal
 import random
 from setchat import *
-#you will need settings.py from our repository
+#you will need settings.py from our repository - blitzy mod
 inx = 0
 def message():
     global inx
